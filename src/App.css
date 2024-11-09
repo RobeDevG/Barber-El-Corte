@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    gap: 100px;
+    max-width: 1880px;
+    margin: auto;
+}
+
+.home-content_1 {
+    margin-top: 80px;
+}
+
+.home-direction {
+    display: flex;
+    margin: 80px;
+    text-align: center;
+    align-items: center;
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-home h1{
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.text-home_2 {
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+}
+
+.img-home {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Abautme{
+    background: url('assets/fondo.png') no-repeat center center; background-size: cover;
+}

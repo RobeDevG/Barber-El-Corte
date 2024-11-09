@@ -1,0 +1,36 @@
+.nav-container {
+    clip-path: ellipse(70% 100% at 50% 0%);
+    margin: auto;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    background: radial-gradient(circle, #524C7D, #000000);
+    display: flex;
+    justify-content: center;
+   
+}
+.rotate{
+    transform: scaleX(-1);
+}
+.esp-check{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.check:checked~.encendido{
+    opacity: 1;
+}
+.check:checked~.apagado{
+    opacity: 0;
+}
+.check:not(:checked)~.encendido{
+    opacity: 0;
+}
+.check:not(:checked)~.apagado{
+    opacity: 1;
+}
+.check{
+    opacity: 0;
+    pointer-events: none;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+.footer-container {
+
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    padding-top: 100px;
+    position: relative;
+    background: radial-gradient(circle, #524C7D, #000000);
+    clip-path: ellipse(70% 100% at 50% 100%);
+}
+
+.footer-container p {
+    text-align: center;
+    color: white;
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.hojas {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hojas-reverse {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    transform: scaleX(-1);
+}

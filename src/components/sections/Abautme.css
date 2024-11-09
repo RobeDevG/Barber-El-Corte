@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.Abautme {
+    max-width: 1880px;
+    margin: auto;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.text-abaut {
+    color: white;
+    margin: 100px;
+    text-align: center;
+    font-size: 64px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.abautimg {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.abautimg-1 {
+    margin-bottom: 70px;
+}
+
+.negative {
+    margin-top: -150px;
+}
+
+.rectangle {
+    width: 538px;
+    height: 606px;
+    background-color: white;
+    border-radius: 39px;
+}
+
+.rectangle h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rectangle p {
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+.barber {
+    position: absolute;
+    right: 0;
+    bottom: -350px;
+}

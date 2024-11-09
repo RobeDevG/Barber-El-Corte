@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.prices {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prices h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+    font-family: "Rhodium Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.prices-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.prices p {
+    position: relative;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 10px;
+    flex: 45%;
+}
+
+.prices p::before {
+    content: '';
+    display: block;
+    width: 70%;
+    border-bottom: 2px solid black;
+    position: absolute;
+    bottom: -10px;
+    left: 100px;
+}
+
+.prices a {
+    text-decoration: none;
+    background-color: #524C7D;
+    padding: 20px;
+    border-radius: 54px;
+    font-size: 40px;
+    color: white;
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 258px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

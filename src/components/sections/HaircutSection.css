@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+
+.haircut-section {
+    position: relative;
+    background: radial-gradient(circle, #524C7D, #000000);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.haircut-section h2 {
+    margin-top: 68px;
+    margin-bottom: 120px;
+    font-size: 64px;
+    font-family: "Rochester", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 200px;
+}
+.image-placeholder:hover{
+    scale: 1.3;
+    cursor: pointer;
+}
+.image-placeholder{
+    transition: all 0.3s ease;
+}
+
+.barber-position_1 {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+
+.barber-position_2 {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transform: scaleX(-1);
+}
+
+.barber-position_3 {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+.barber-position_4 {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    transform: scaleX(-1);
+}
