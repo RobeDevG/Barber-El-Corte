@@ -7,9 +7,7 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-style: normal;
-}
-
+    font-style: normal;}
 .Abautme {
     max-width: 1880px;
     margin: auto;
@@ -27,6 +25,7 @@
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 100;
     font-style: normal;
+    max-width: 500px;
 }
 
 .abautimg {
@@ -73,4 +72,41 @@
     position: absolute;
     right: 0;
     bottom: -350px;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.cards{
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 5px;
+    width: 150px;
+    height:100px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.cards p{
+    margin-top: 20px;
+}
+.conctainer-abaut{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cards::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url('../../assets/Star 3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right:0;
+    top: 0;
 }

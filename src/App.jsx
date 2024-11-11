@@ -10,41 +10,48 @@ import HaircutSection from './components/sections/HaircutSection'
 import Contactanos from './components/sections/Contactanos'
 import Footer from './components/sections/Footer'
 import Nav from './components/sections/Nav'
+
+import {useTranslation} from 'react-i18next'
+
 function App() {
+ 
+ const[t] = useTranslation("global")
 
-  return (
-    <div>
-      <header className="home section-container">
-       <Nav/>
-        <div className='home-content'>
-          <div className='home-content_1'>
-            <div className='text-home'>
-              <h1>Bienvenido a</h1>
-              <p className='text-home_2'>Barberia el Corte</p>
+    return (
+      <div>
+        <header className="home section-container">
+          <Nav />
+          <div className='home-content'>
+            <div className='home-content_1'>
+              <div className='text-home'>
+                <h1>{t("header.title")}</h1>
+                <p className='text-home_2'>{t("header.spam")}</p>
+              </div>
+              <div className='home-direction'>
+                <img src={assets} alt="asd" />
+                <p>Reparto Reinold Garcia </p>
+              </div>
+              <div className='home-direction'>
+                <img src={iPhone} alt="" />
+                <p>+53 63901233</p>
+              </div>
             </div>
-            <div className='home-direction'>
-              <img src={assets} alt="asd" />
-              <p>Reparto Reinold Garcia </p>
-            </div>
-            <div className='home-direction'>
-              <img src={iPhone} alt="" />
-              <p>+53 58672669</p>
+            <div>
+              <img src={homeimg} alt="" width='auto' height={597} />
             </div>
           </div>
-          <div>
-            <img src={homeimg} alt="" width='auto' height={597} />
-          </div>
-        </div>
+  
+        </header>
+        <OurServices />
+        <Abautme />
+        <Prices />
+        <HaircutSection />
+        <Contactanos />
+        <Footer />
+      </div>
 
-      </header>
-      <OurServices />
-      <Abautme />
-      <Prices/>
-      <HaircutSection/>
-      <Contactanos/>
-      <Footer/>
-    </div>
-  )
+    
+    )
 }
 
 export default App

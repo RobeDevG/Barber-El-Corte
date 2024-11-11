@@ -1,0 +1,37 @@
+{
+    "header":{
+        "title": "Bienvenido a",
+         "spam": "Barberia el Corte"
+    },
+    "ourServices":{
+        "text_1":"Cortes de Pelo Normal",
+        "text_2":"Tratamientos Faciales Para Hombres",
+        "text_3":"Afeitado Real",
+        "text_4":"Corte de Pelo Para Niños"
+    },
+    "Abautme":{
+        "hours":"Horarios",
+         "Monday":"Lunes",
+         "Tuesday":"Martes",
+         "Wednesday":"Miercoles",
+         "Thursday":"Jueves",
+         "Friday":"Viernes",
+         "Saturday":"Sabado",
+
+         "title": "Además hay 5 razones por las que los Hombres prefieren la Barberia “El Corte”"
+    },
+    "Prices":{
+        "title":"Nuestros Precios",
+        "text_1":"Adultos",
+        "text_2":"Niños",
+        "text_3":"Rapado",
+        "text_4":"Barba",
+
+        "btn":"Saca tu cita ya"
+    },
+    "HaircutSection":{
+        "title":"Experimente los mejores servicios de corte de cabello y afeitado"
+
+    },
+    "Contact-us":"Contactanos"
+}

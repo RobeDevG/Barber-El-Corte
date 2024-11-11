@@ -6,12 +6,16 @@ import cortes2 from '../../assets/cortes2.png'
 import cortes3 from '../../assets/cortes3.png'
 import BarberScissors from '../../assets/Barber Scissors.png'
 import StraightRazor from '../../assets/Straight Razor.png'
+import { useTranslation } from 'react-i18next';
 
 
 const HaircutSection = () => {
+
+  const[t] = useTranslation("global")
+
   return (
     <section className="haircut-section">
-      <h2>Experimente los mejores<br /> servicios de corte de cabello y<br /> afeitado</h2>
+      <h2>{t("HaircutSection.title")}</h2>
       <div className="images-container">
         <img className="image-placeholder" src={cortes} height='253px'
           width='auto' ></img>
