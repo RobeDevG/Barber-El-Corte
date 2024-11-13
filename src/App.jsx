@@ -37,7 +37,7 @@ function App() {
               </div>
             </div>
             <div>
-              <img src={homeimg} alt="" width='auto' height={597} />
+              <img className='img_main' src={homeimg} alt="" width='auto' height={597} />
             </div>
           </div>
   

@@ -32,3 +32,18 @@
     bottom: 0px;
     transform: scaleX(-1);
 }
+@media (max-width:636px){
+    .hojas,
+    .hojas-reverse{
+        width: 100px;
+        height: auto;
+    }
+    .footer-container p{
+        font-size: 32px;
+    }
+    }
+    @media (max-width: 768px){
+        .footer-container {
+            clip-path: ellipse(100% 100% at 50% 100%);
+        }
+    }

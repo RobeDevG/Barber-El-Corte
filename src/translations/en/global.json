@@ -1,37 +1,39 @@
 {
-    "header":{
+    "header": {
         "title": "Welcome to",
-         "spam": "Barbershop el Corte"
+        "spam": "Barbershop el Corte"
     },
-    "ourServices":{
-        "text_1":"Regular Haircuts",
-        "text_2":"Facial Treatments for Men",
-        "text_3":"Royal Shave",
-        "text_4":"Children's Haircuts"
+    "ourServices": {
+        "text_1": "Regular Haircuts",
+        "text_2": "Facial Treatments for Men",
+        "text_3": "Royal Shave",
+        "text_4": "Children's Haircuts"
     },
-    "Abautme":{
-        "hours":"Hours",
-         "Monday":"Monday",
-         "Tuesday":"Tuesday",
-         "Wednesday":"Wednesday",
-         "Thursday":"Thursday",
-         "Friday":"Friday",
-         "Saturday":"Saturday",
-
-         "title": "Additionally, there are 5 reasons why Men prefer the Barbershop 'El Corte”"
+    "Abautme": {
+        "hours": "Hours",
+        "Monday": "Monday",
+        "Tuesday": "Tuesday",
+        "Wednesday": "Wednesday",
+        "Thursday": "Thursday",
+        "Friday": "Friday",
+        "Saturday": "Saturday",
+        "title": "Additionally, there are 5 reasons why Men prefer the Barbershop 'El Corte”",
+        "card_1": "✓ Warm and welcoming environment.",
+        "card_2": "✓ Our master barbers focus on quality.",
+        "card_3": "✓ We value both our customers' time and money.",
+        "card_4": "✓ Premium, hypoallergenic, and high-quality products.",
+        "card_5": "✓ Continuous cleaning and disinfection of tools."
     },
-    "Prices":{
-        "title":"Our Prices",
-        "text_1":"Adults",
-        "text_2":"Children",
-        "text_3":"Buzz Cut",
-        "text_4":"Beard",
-
-        "btn":"Book now"
+    "Prices": {
+        "title": "Our Prices",
+        "text_1": "Adults",
+        "text_2": "Children",
+        "text_3": "Buzz Cut",
+        "text_4": "Beard",
+        "btn": "Book now"
     },
-    "HaircutSection":{
-        "title":"Experience the best haircut and shaving services"
-
+    "HaircutSection": {
+        "title": "Experience the best haircut and shaving services"
     },
-    "Contact-us":"Contact Us"
+    "Contact-us": "Contact Us"
 }

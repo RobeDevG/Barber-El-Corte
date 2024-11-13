@@ -18,7 +18,12 @@
          "Friday":"Viernes",
          "Saturday":"Sabado",
 
-         "title": "Además hay 5 razones por las que los Hombres prefieren la Barberia “El Corte”"
+         "title": "Además hay 5 razones por las que los Hombres prefieren la Barberia “El Corte”",
+         "card_1":"✓ Ambiente siempre acogedor.",
+         "card_2":"✓ Nuestros maestros se enfocan en la calidad.",
+         "card_3":"✓ Valoramos tanto el tiempo como el dinero de nuestros clientes.",
+         "card_4":"✓ Productos premium, hipoalergénicos y de alta calidad.",
+         "card_5":"✓ Limpieza y desinfección de herramientas constante"
     },
     "Prices":{
         "title":"Nuestros Precios",

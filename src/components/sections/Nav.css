@@ -10,12 +10,26 @@
     justify-content: center;
    
 }
+@media (max-width:636px){
+.Hojas_1{
+    width: 100px;
+    height: auto;
+}
+.Leprechaun{
+    width: 50px;
+    height: auto;
+}
+.esp-check img{
+    height: auto;
+    width: 50px;
+}
+}
 .rotate{
     transform: scaleX(-1);
 }
 .esp-check{
     position: absolute;
-    right: 30px;
+    right: 10px;
     top: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -35,4 +49,9 @@
 .check{
     opacity: 0;
     pointer-events: none;
+}
+@media (max-width: 768px){
+    .nav-container {
+        clip-path: ellipse(100% 100% at 50% 0%);
+    }
 }

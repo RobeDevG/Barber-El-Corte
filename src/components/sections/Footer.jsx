@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <p>Developed by:Roberto Gonzalez</p>
-        <p>Designed by: Yoel </p>
+        <p>Designed by: Yoel Gómez</p>
         <img className='hojas' src={Hojas} alt="" />
         <img className='hojas-reverse' src={Hojas} alt="" />
       </div>

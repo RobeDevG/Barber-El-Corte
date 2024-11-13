@@ -57,8 +57,8 @@
 }
 
 .img-home {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin-top: 40px;
     text-align: center;
     font-size: 20px;
@@ -68,4 +68,9 @@
 }
 .Abautme{
     background: url('assets/fondo.png') no-repeat center center; background-size: cover;
+}
+@media(max-width:925px){
+    .img_main{
+        display: none;
+    }
 }

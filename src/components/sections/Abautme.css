@@ -9,7 +9,7 @@
     font-weight: 100;
     font-style: normal;}
 .Abautme {
-    max-width: 1880px;
+    
     margin: auto;
     margin-top: 300px;
     display: flex;
@@ -110,3 +110,33 @@
     right:0;
     top: 0;
 }
+@media (max-width: 980px){
+    .rectangle{
+        display: none;
+    }
+    .text-abaut{
+        display: none;
+    }
+    .Abautme{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .abautimg{
+        margin-left: 0;
+    }
+    
+}
+@media(max-width:651px){
+    .negative{
+        width: 300px;
+        height: auto;
+    }
+}
+@media(max-width:1168px){
+    .barber{
+        display: none;
+    }
+}
+
+

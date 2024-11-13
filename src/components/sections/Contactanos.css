@@ -22,3 +22,8 @@
 .conctainer-abaut {
     text-align: center;
 }
+@media (max-width:567px){
+    .social-icons a img{
+        width: 50px;
+    }
+}
