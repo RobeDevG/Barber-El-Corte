@@ -3,6 +3,12 @@
         "title": "Bienvenido a",
          "spam": "Barberia el Corte"
     },
+    "nav":{
+        "text_1": "Sacar cita",
+        "text_2": "Sobre Nosotros",  
+        "text_3": "Precio",
+        "text_4": "Estilos"
+    },
     "ourServices":{
         "text_1":"Cortes de Pelo Normal",
         "text_2":"Tratamientos Faciales Para Hombres",

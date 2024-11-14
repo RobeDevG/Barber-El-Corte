@@ -13,7 +13,7 @@ import Create from '../../assets/Create.png'
 function Nav() {
 
     const [isOpen, setIsOpen] = useState(false)
-    const { i18n } = useTranslation("global")
+    const [t, i18n ] = useTranslation("global")
     const [isChecked, setisChecked] = useState(false)
 
     const handelClick = ()=>{
@@ -43,10 +43,10 @@ function Nav() {
 
             </section>
             <div className={`nav__menu-links ${isOpen && "open"}`}>
-                <a href="#contact" className="nav__menu-link" id="sobreMi" onClick={()=>{handelClick()}}><img src={Create} alt="" /> Sacar cita</a>
-                <a href="#about-me" className="nav__menu-link" id="proyectos" onClick={()=>{handelClick()}}><img src={Person} alt="" />Sobre Nosotros</a>
-                <a href="#prices" className="nav__menu-link" id="habilidades" onClick={()=>{handelClick()}}><img src={Banknotes} alt="" />Precio</a>
-                <a href="#haircut-styles" className="nav__menu-link" id="contactMe" onClick={()=>{handelClick()}}><img src={FashionTrend11} alt="" />Estilos</a>
+                <a href="#contact" className="nav__menu-link" id="sobreMi" onClick={()=>{handelClick()}}><img src={Create} alt="" />{t("nav.text_1")} </a>
+                <a href="#about-me" className="nav__menu-link" id="proyectos" onClick={()=>{handelClick()}}><img src={Person} alt="" />{t("nav.text_2")}</a>
+                <a href="#prices" className="nav__menu-link" id="habilidades" onClick={()=>{handelClick()}}><img src={Banknotes} alt="" />{t("nav.text_3")}</a>
+                <a href="#haircut-styles" className="nav__menu-link" id="contactMe" onClick={()=>{handelClick()}}><img src={FashionTrend11} alt="" />{t("nav.text_4")}</a>
             </div>
         </nav>
     )

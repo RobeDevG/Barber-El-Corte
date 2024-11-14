@@ -3,6 +3,12 @@
         "title": "Welcome to",
         "spam": "Barbershop el Corte"
     },
+    "nav":{
+        "text_1": "Make an Appointment",
+        "text_2": "About Us",  
+        "text_3": "Price",
+        "text_4": "Styles"
+    },
     "ourServices": {
         "text_1": "Regular Haircuts",
         "text_2": "Facial Treatments for Men",
