@@ -11,12 +11,12 @@
     },
     "Abautme":{
         "hours":"Horarios",
-         "Monday":"Lunes",
-         "Tuesday":"Martes",
-         "Wednesday":"Miercoles",
-         "Thursday":"Jueves",
-         "Friday":"Viernes",
-         "Saturday":"Sabado",
+         "Monday":"Lunes : 12pm a 7pm",
+         "Tuesday":"Martes : 12pm a 7pm",
+         "Wednesday":"Miercoles : 12pm a 7pm",
+         "Thursday":"Jueves : 12pm a 7pm",
+         "Friday":"Viernes : 12pm a 7pm",
+         "Saturday":"Sabado : 12pm a 7pm",
 
          "title": "Además hay 5 razones por las que los Hombres prefieren la Barberia “El Corte”",
          "card_1":"✓ Ambiente siempre acogedor.",

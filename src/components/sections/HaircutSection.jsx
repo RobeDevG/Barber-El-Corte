@@ -14,7 +14,7 @@ const HaircutSection = () => {
   const[t] = useTranslation("global")
 
   return (
-    <section className="haircut-section">
+    <section className="haircut-section" id='haircut-styles'>
       <h2>{t("HaircutSection.title")}</h2>
       <div className="images-container">
         <img className="image-placeholder" src={cortes} height='253px'

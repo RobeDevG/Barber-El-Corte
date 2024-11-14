@@ -10,6 +10,7 @@ import HaircutSection from './components/sections/HaircutSection'
 import Contactanos from './components/sections/Contactanos'
 import Footer from './components/sections/Footer'
 import Nav from './components/sections/Nav'
+import Hours from './components/sections/Hours'
 
 import {useTranslation} from 'react-i18next'
 
@@ -19,8 +20,8 @@ function App() {
 
     return (
       <div>
+        <Nav />
         <header className="home section-container">
-          <Nav />
           <div className='home-content'>
             <div className='home-content_1'>
               <div className='text-home'>
@@ -44,6 +45,7 @@ function App() {
         </header>
         <OurServices />
         <Abautme />
+        <Hours/>
         <Prices />
         <HaircutSection />
         <Contactanos />

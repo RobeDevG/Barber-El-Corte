@@ -1,14 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .nav-container {
+    position: relative;
     clip-path: ellipse(70% 100% at 50% 0%);
     margin: auto;
     width: 100%;
     padding-bottom: 50px;
     padding-top: 50px;
-    position: relative;
     background: radial-gradient(circle, #524C7D, #000000);
     display: flex;
     justify-content: center;
-   
 }
 @media (max-width:636px){
 .Hojas_1{
@@ -50,8 +55,104 @@
     opacity: 0;
     pointer-events: none;
 }
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .3s;
+    left: 30px;
+    top: 30px;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition-duration: .3s;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    margin-left: 13px;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: rotate(135deg);
+    margin-left: 0;
+    transform-origin: center;
+    transition-duration: .3s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    transform: rotate(45deg);
+    transition-duration: .3s;
+    transform-origin: left center;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    transform: rotate(-45deg);
+    transition-duration: .3s;
+    transform-origin: left center;
+  }
+  
 @media (max-width: 768px){
     .nav-container {
         clip-path: ellipse(100% 100% at 50% 0%);
     }
 }
+.nav__menu-links {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .nav__menu-link {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px  rgb(0, 0, 0);
+    width: 300px;
+    height: 100px;
+    transition: all 0.3s ease;
+  }
+  .nav__menu-link img{
+    position: absolute;
+    left: 5px;
+  }
+  @media (hover:hover){
+    .nav__menu-link:hover{
+      background-color: rgb(225, 226, 255);
+    }
+  }
+  .open{
+    opacity: 1;
+    visibility: visible;
+  }

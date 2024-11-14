@@ -7,13 +7,13 @@
 
 .prices {
     max-width: 1440px;
-    margin: auto;
+    margin-left: auto;   
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .prices h1 {
     text-align: center;
     font-size: 40px;
@@ -66,10 +66,22 @@
     width: 258px;
     margin-top: 40px;
     margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+@media(hover:hover){
+    .prices a:hover {
+        background-color: #8b84ce;
+        scale: 1.05;
+    }
 }
 @media(max-width:853px){
     .prices-container p{
     font-size: 32px;
         
+    }
+}
+@media (max-width: 980px){
+    .prices h1 {
+        margin-top: 40px;
     }
 }

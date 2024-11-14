@@ -8,7 +8,7 @@ function Abautme() {
     const [t] = useTranslation("global")
 
     return (
-        <section className="Abautme">
+        <section className="Abautme" id='about-me'>
             <div className='abautimg'>
                 <img className='abautimg-1 negative' src={imagen1} height={"auto"} width={538} alt="" />
                 <div className='abautimg-1 rectangle'>
