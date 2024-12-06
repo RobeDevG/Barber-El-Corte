@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import './prices.css'
+import './Prices.css'
 
 function Prices() {
 
