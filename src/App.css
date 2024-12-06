@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -76,5 +76,91 @@
 @media(max-width:925px){
     .img_main{
         display: none;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.prices {
+    max-width: 1440px;
+    margin-left: auto;   
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prices h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+    font-family: "Rhodium Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.prices-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 100px;
+}
+@media (max-width:580px) {
+.prices-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+.prices p {
+    position: relative;
+    font-size: 48px;
+    text-wrap: nowrap;
+    
+    
+    
+    
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right:6px;
+    width: fit-content;
+    border-bottom: solid 2px #000;
+}
+
+
+
+.prices a {
+    text-decoration: none;
+    background-color: #524C7D;
+    padding: 20px;
+    border-radius: 54px;
+    font-size: 40px;
+    color: white;
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 258px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+@media(hover:hover){
+    .prices a:hover {
+        background-color: #8b84ce;
+        scale: 1.05;
+    }
+}
+@media(max-width:853px){
+    .prices-container p{
+    font-size: 32px;
+        
+    }
+}
+@media (max-width: 980px){
+    .prices h1 {
+        margin-top: 40px;
     }
 }
